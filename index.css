@@ -40,3 +40,8 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+
+    *{
+        box-sizing: border-box; /* it tells elements that they need to respect the width we've given it using this rule */
+        max-width:100%; /* This tells elements to never become bigger than their parent */
+      }
