@@ -42,24 +42,39 @@ blockquote, q {
 	}
 
     *{
-        box-sizing: border-box; /* it tells elements that they need to respect the width we've given it using this rule */
-        max-width:100%; /* This tells elements to never become bigger than their parent */
+        box-sizing: border-box;
+        max-width:100%;
       }
 
 body {
-    background:#DDB9A3;
+    background:white;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
 }
 
 .links nav a {
+    display:inline-block;
     margin:2.5%;
     border:1px solid #FF764E;
     border-radius: 10%;
     padding: 2%;
-    display:inline-block;
     color:white;
     background:#FF764E;
-    width: 0 auto;
+    text-align:center;
+}
 
+#plan {
+    background:#FF764E;
+}
+
+#learn {
+    background:#5ed3eb;
+}
+
+#involve {
+    background:#ffcd69;
 }
 
 .container {
