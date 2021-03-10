@@ -45,3 +45,28 @@ blockquote, q {
         box-sizing: border-box; /* it tells elements that they need to respect the width we've given it using this rule */
         max-width:100%; /* This tells elements to never become bigger than their parent */
       }
+
+body {
+    background:#DDB9A3;
+}
+
+.links nav a {
+    margin:2.5%;
+    border:1px solid #FF764E;
+    border-radius: 10%;
+    padding: 2%;
+    display:inline-block;
+    color:white;
+    background:#FF764E;
+    width: 0 auto;
+
+}
+
+.container {
+    display:inline-block;
+}
+
+.container img {
+    border-radius:50%;
+    width: 15%;
+}
