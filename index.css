@@ -130,11 +130,6 @@ h1 {
     text-align:center;
 }
 
-.intro {
-    margin: 0 auto;
-    width: 0 auto;
-}
-
 .container img {
     border-radius:50%;
     width: 20%;
@@ -142,9 +137,22 @@ h1 {
 
 .valley {
     background:#DDB9A3;
+    border:1px solid white;
     color:white;
     margin: 10%;
-    width: 30%;
+    width: 0 auto;
     text-align:center;
     padding: 2%;
+    font-size: 1.5em;
+}
+
+.fire {
+    height: 100px;
+    width: 100px;
+    margin: 50%;
+}
+
+.RV {
+    height: 50px;
+    width: 50px;
 }
