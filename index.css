@@ -41,10 +41,16 @@ blockquote, q {
 	quotes: "" "";
 	}
 
-    *{
-        box-sizing: border-box;
-        max-width:100%;
-      }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    }
+
+html {
+    font-size:62.5%;
+}
 
 body {
     background:white;
@@ -54,54 +60,63 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 }
 
-/* .links nav a { 
-    display:inline-block;
-    margin:2.5%;
-    border:1px solid #FF764E;
-    border-radius: 10%;
-    padding: 2%;
-    color:white;
-    background:#FF764E;
-    text-align:center;
-} */
+p {
+    font-family: 'Roboto Mono';
+}
 
-.links {
+.links { 
     margin: 0 auto;
-    width: 33%;
+    width: 50%;
     padding: 2%;
 }
 
 #plan {
     border:1px #FF764E;
-    border-radius: 20%;
-    padding: 5%;
+    border-radius: 15px;
+    padding: 2%;
     background:#FF764E;
-    margin: 2.5%;
+    color:white;
+    font-family: 'Roboto Mono';
+    margin: 7%;
     width: 0 auto;
     text-align:center;
+    font-size: 1.5em;
+    word-wrap:normal;
 }
 
 #learn {
     border:1px #5ed3eb;
-    border-radius: 15%;
-    padding:5%;
+    border-radius: 15px;
+    padding:2%;
     background:#5ed3eb;
-    margin: 2.5%;
+    color:white;
+    font-family: 'Roboto Mono';
+    margin: 7%;
     width: 0 auto;
     text-align:center;
+    font-size: 1.5em;
+    word-wrap:normal;
 }
 
 #involve {
     border:1px #ffcd69;
-    border-radius: 15%;
-    padding:5%;
+    border-radius: 15px;
+    padding:2%;
     background:#ffcd69;
-    margin: 2.5%;
+    color:white;
+    font-family: 'Roboto Mono';
+    margin: 7%;
     width: 0 auto;
     text-align:center;
+    font-size: 1.5em;
+    word-wrap:normal;
 }
 
 .container {
+    display:inline-block;
+}
+
+.container2 {
     display:inline-block;
 }
 
@@ -112,5 +127,9 @@ h1 {
 
 .valley {
     background:#DDB9A3;
+    color:white;
     margin: 10%;
+    width: 30%;
+    text-align:center;
+    padding: 2%;
 }
