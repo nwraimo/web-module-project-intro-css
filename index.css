@@ -143,16 +143,48 @@ h1 {
     width: 0 auto;
     text-align:center;
     padding: 2%;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .fire {
-    height: 100px;
-    width: 100px;
-    margin: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .RV {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
 }
+
+.flames {
+    margin: 42%;
+    width: 0 auto;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap: normal;
+}
+
+.lodging {
+    margin: 42%;
+    width: 0 auto;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap: normal;
+}
+
+.footer {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+footer {
+    border-top: 1px white;
+    padding: 20px 0;
+    background:#F9E7DC;
+  }
