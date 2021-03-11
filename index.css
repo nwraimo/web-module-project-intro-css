@@ -118,11 +118,26 @@ p {
 
 .container2 {
     display:inline-block;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap: normal;
+    width: 15%;
+}
+
+h1 {
+    font-size: 4em;
+    width:100%;
+    text-align:center;
+}
+
+.intro {
+    margin: 0 auto;
+    width: 0 auto;
 }
 
 .container img {
     border-radius:50%;
-    width: 15%;
+    width: 20%;
 }
 
 .valley {
