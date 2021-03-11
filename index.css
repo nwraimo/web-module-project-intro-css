@@ -188,12 +188,11 @@ h1 {
     word-wrap: normal;
 }
 
-.footer {
-    display: block;
-    margin: auto;
-    width: 0 auto;
-    border-left: 0px;
-    border-right: 0px;
+.center {
+    display:block;
+    background-size: contain;
+    width: 2400px;
+    height: 300px;
 }
 
 footer {
