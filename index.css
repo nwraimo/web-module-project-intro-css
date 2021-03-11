@@ -54,7 +54,7 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 }
 
-.links nav a {
+/* .links nav a { 
     display:inline-block;
     margin:2.5%;
     border:1px solid #FF764E;
@@ -63,18 +63,42 @@ h1 {
     color:white;
     background:#FF764E;
     text-align:center;
+} */
+
+.links {
+    margin: 0 auto;
+    width: 33%;
+    padding: 2%;
 }
 
 #plan {
+    border:1px #FF764E;
+    border-radius: 20%;
+    padding: 5%;
     background:#FF764E;
+    margin: 2.5%;
+    width: 0 auto;
+    text-align:center;
 }
 
 #learn {
+    border:1px #5ed3eb;
+    border-radius: 15%;
+    padding:5%;
     background:#5ed3eb;
+    margin: 2.5%;
+    width: 0 auto;
+    text-align:center;
 }
 
 #involve {
+    border:1px #ffcd69;
+    border-radius: 15%;
+    padding:5%;
     background:#ffcd69;
+    margin: 2.5%;
+    width: 0 auto;
+    text-align:center;
 }
 
 .container {
@@ -84,4 +108,9 @@ h1 {
 .container img {
     border-radius:50%;
     width: 15%;
+}
+
+.valley {
+    background:#DDB9A3;
+    margin: 10%;
 }
