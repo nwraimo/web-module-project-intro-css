@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    }
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    background:white;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+p {
+    font-family: 'Roboto Mono';
+}
+
+.links { 
+    margin: 0 auto;
+    width: 50%;
+    padding: 2%;
+}
+
+#plan {
+    border:1px #FF764E;
+    border-radius: 15px;
+    padding: 2%;
+    background:#FF764E;
+    color:white;
+    font-family: 'Roboto Mono';
+    margin: 7%;
+    width: 0 auto;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap:normal;
+}
+
+#learn {
+    border:1px #5ed3eb;
+    border-radius: 15px;
+    padding:2%;
+    background:#5ed3eb;
+    color:white;
+    font-family: 'Roboto Mono';
+    margin: 7%;
+    width: 0 auto;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap:normal;
+}
+
+#involve {
+    border:1px #ffcd69;
+    border-radius: 15px;
+    padding:2%;
+    background:#ffcd69;
+    color:white;
+    font-family: 'Roboto Mono';
+    margin: 7%;
+    width: 0 auto;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap:normal;
+}
+
+.container {
+    display:inline-block;
+}
+
+.container2 {
+    display:inline-block;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap: normal;
+    width: 15%;
+}
+
+h1 {
+    font-size: 4em;
+    width:100%;
+    text-align:center;
+}
+
+.container img {
+    border-radius:50%;
+    width: 20%;
+}
+
+.valley {
+    background:#DDB9A3;
+    border-top: 25px solid white;
+    border-left: 450px solid white;
+    border-right: 450px solid white;
+    color:white;
+    margin: auto;
+    width: 0 auto;
+    text-align:center;
+    padding: 2%;
+    font-size: 2em;
+}
+
+.fire {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.RV {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flames {
+    display: block;
+    margin: auto;
+    width: 0 auto;
+    border-top: 25px solid white;
+    border-bottom: 50px solid white;
+    border-left: 900px solid white;
+    border-right: 900px solid white;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap: normal;
+}
+
+.lodging {
+    display: block;
+    margin: auto;
+    width: 0 auto;
+    border-top: 10px solid white;
+    border-bottom: 100px solid white;
+    border-left: 850px solid white;
+    border-right: 850px solid white;
+    text-align:center;
+    font-size: 1.5em;
+    word-wrap: normal;
+}
+
+.center {
+    display:block;
+    background-size: contain;
+    width: 2400px;
+    height: 300px;
+}
+
+footer {
+    border-top: 1px white;
+    padding: 20px 0;
+    background:#F9E7DC;
+  }
